@@ -1,0 +1,36 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.Text {
+  &_Right {
+    text-align: right;
+  }
+
+  &_Center {
+    text-align: center;
+  }
+
+  &_Left {
+    text-align: left;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.Container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  &-Outer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

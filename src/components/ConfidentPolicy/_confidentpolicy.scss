@@ -1,0 +1,12 @@
+.ConfidentPolicy {
+  font-size: 0.9rem;
+
+  &-Title {
+    margin-top: 15px;
+    margin-bottom: 8px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

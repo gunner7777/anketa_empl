@@ -1,0 +1,26 @@
+.AuthForm {
+  &-Title {
+    margin-bottom: 30px;
+  }
+  &-Form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+  }
+  &-InputWrapper {
+    margin-bottom: 30px;
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@include mq-max(575px) {
+  .AuthForm {
+    &-Title {
+      font-size: 1.3rem;
+    }
+  }
+}

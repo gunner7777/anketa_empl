@@ -1,0 +1,25 @@
+.Content {
+  width: 80%;
+  margin: 0 auto;
+
+  &-Outer {
+    flex-grow: 1;
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@include mq-max(768px) {
+  .Content {
+    width: 90%;
+  }
+}
+
+@include mq-max(400px) {
+  .Content {
+    width: 90%;
+  }
+}

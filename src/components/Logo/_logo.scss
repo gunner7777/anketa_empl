@@ -1,0 +1,42 @@
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 768px;
+  margin: 0 auto;
+
+  &-Img {
+    margin-right: 20px;
+    width: 100px;
+  }
+
+  &-Title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $secondary-text;
+  }
+}
+
+@include mq-max(575px) {
+  .Logo {
+    &-Img {
+      margin-right: 15px;
+    }
+  }
+}
+
+@include mq-max(400px) {
+  .Logo {
+    flex-flow: row wrap;
+
+    &-Img {
+      margin-bottom: 10px;
+    }
+    &-Title {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}

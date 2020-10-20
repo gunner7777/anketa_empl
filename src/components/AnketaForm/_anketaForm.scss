@@ -1,0 +1,13 @@
+.AnketaForm {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+
+  &-Question {
+    margin-bottom: 25px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

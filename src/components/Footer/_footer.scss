@@ -1,0 +1,12 @@
+.Footer {
+  position: relative;
+  min-height: 50px;
+  background-color: $base_bg;
+
+  &-Copyright {
+    color: $secondary-text;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

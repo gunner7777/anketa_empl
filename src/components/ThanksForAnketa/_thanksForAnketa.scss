@@ -1,0 +1,9 @@
+.ThanksForAnketa {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  &-Text {
+    margin-bottom: 30px;
+  }
+}

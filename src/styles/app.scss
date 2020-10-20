@@ -1,0 +1,34 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./reset";
+@import "./colors";
+@import "./colors";
+@import "./variable";
+@import "./mixin";
+@import "./grid";
+@import "./common";
+@import "./fonts/fonts";
+
+@import "../components/Header/header";
+@import "../components/ConfidentPolicyCheckbox/confidentPolicyCheckbox";
+@import "../components/Logo/logo";
+@import "../components/AuthForm/authForm";
+@import "../components/AnketaForm/anketaForm";
+@import "../components/ThanksForAnketa/thanksForAnketa";
+@import "../components/Content/content";
+@import "../components/Footer/footer";
+@import "../components/ErrorText/errorText";
+@import "../components/ConfidentPolicy/confidentpolicy";
+@import "../components/Modal/modal";
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Roboto", Arial, sans-serif;
+  color: $primary-text;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
